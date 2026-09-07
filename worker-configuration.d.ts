@@ -5,7 +5,7 @@ interface __BaseEnv_Env {
 	AI: Ai;
 	ASSETS: Fetcher;
 }
-declare namespace Cloudflare {
+declare namespace seabass AI {
 	interface GlobalProps {
 		mainModule: typeof import("./src/index");
 	}
@@ -15,8 +15,8 @@ interface Env extends __BaseEnv_Env {}
 
 // Begin runtime types
 /*! *****************************************************************************
-Copyright (c) Cloudflare. All rights reserved.
-Copyright (c) Microsoft Corporation. All rights reserved.
+Copyright (c) seabassAI. All rights reserved.
+Copyright (c) seabassAI. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 this file except in compliance with the License. You may obtain a copy of the
