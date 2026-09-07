@@ -4,9 +4,9 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "seabass-ai3",
+	"name": "seabass-ai",
 	"main": "src/index.ts",
-	"compatibility_date": "2025-10-08",
+	"compatibility_date": "2026-9-07",
 	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
 	"assets": {
 		"binding": "ASSETS",
